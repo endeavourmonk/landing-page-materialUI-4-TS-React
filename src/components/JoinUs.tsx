@@ -1,9 +1,7 @@
 import React from "react";
 import { Box, Button, Typography } from "@material-ui/core";
-// import GroupsIcon from "@material-ui/icons/Groups";
 import { makeStyles } from "@material-ui/core/styles";
 
-// Define styles using makeStyles
 const useStyles = makeStyles((theme) => ({
   root: {
     minHeight: 800,
@@ -53,7 +51,6 @@ const JoinUs: React.FC = () => {
   return (
     <Box className={classes.root}>
       <Box className={classes.topBox}>
-        {/* <GroupsIcon style={{ fontSize: 42 }} /> */}
         <Typography
           variant="h6"
           component="h3"

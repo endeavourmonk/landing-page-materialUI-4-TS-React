@@ -95,7 +95,6 @@ export default function NotificationChannels() {
         </Typography>
       </Box>
       <Grid container spacing={4} className={classes.gridContainer}>
-        {/* Grid items */}
         {[
           { src: email, alt: "Email" },
           { src: discord, alt: "Discord" },

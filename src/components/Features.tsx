@@ -17,7 +17,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(10, 0),
   },
   gridContainer: {
-    // width: "100%",
     justifyContent: "center",
     alignItems: "center",
     padding: theme.spacing(0, 10),

@@ -29,7 +29,7 @@ const Awards: React.FC = () => {
         style={{
           fontSize: 20,
           fontWeight: 400,
-          marginBottom: theme.spacing(2), // mb={4} equivalent
+          marginBottom: theme.spacing(2),
           color: "#3D3B40",
         }}
       >

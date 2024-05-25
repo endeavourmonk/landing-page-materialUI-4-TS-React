@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
   loginButton: {
     textTransform: "none",
     fontSize: "16px",
-    fontWeight: 700, // Changed from "700" to 700
+    fontWeight: 700,
     backgroundColor: "transparent",
     border: "none",
   },
@@ -57,7 +57,7 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "none",
     color: "#eef7ff",
     fontSize: "16px",
-    fontWeight: 700, // Changed from "700" to 700
+    fontWeight: 700,
     backgroundColor: "#0368d9",
     border: "none",
     borderRadius: "32px",
@@ -124,7 +124,6 @@ function Navbar() {
           <Box
             sx={{
               display: { xs: "none", md: "flex" },
-              // gap: 0.5,
               alignItems: "center",
             }}
           >
