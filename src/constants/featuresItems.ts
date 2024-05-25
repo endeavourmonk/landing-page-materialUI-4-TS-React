@@ -1,7 +1,7 @@
-import monitoring from "../assets/svg/monitoring.svg";
-import search from "../assets/svg/search.svg";
-import shield from "../assets/svg/shield.svg";
-import notification from "../assets/img/notification.png";
+import monitoring from "../assets/imgs/monitoring.webp";
+import search from "../assets/imgs/search.webp";
+import shield from "../assets/imgs/shield.webp";
+import notification from "../assets/imgs/notification.webp";
 
 export const featuresItem = [
   {

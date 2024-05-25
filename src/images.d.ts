@@ -13,3 +13,9 @@ declare module "*.svg" {
   const src: string;
   export default src;
 }
+
+// For WebP files
+declare module "*.webp" {
+  const value: any;
+  export = value;
+}

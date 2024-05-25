@@ -8,14 +8,16 @@ import {
   useTheme,
 } from "@material-ui/core";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
-import email from "../assets/svg/email.svg";
-import discord from "../assets/svg/discord.svg";
-import slack from "../assets/svg/slack.svg";
-import sms from "../assets/svg/sms.svg";
-import twitter from "../assets/svg/twitter.svg";
-import web from "../assets/svg/web.svg";
-import webhooks from "../assets/svg/webhooks.svg";
-import pushover from "../assets/img/pushover.png";
+
+// image imports
+import email from "../assets/imgs/email.webp";
+import discord from "../assets/imgs/discord.webp";
+import slack from "../assets/imgs/slack.webp";
+import sms from "../assets/imgs/sms.webp";
+import twitter from "../assets/imgs/twitter.webp";
+import web from "../assets/imgs/web.webp";
+import webhooks from "../assets/imgs/webhooks.webp";
+import pushover from "../assets/imgs/pushover.webp";
 
 const useStyles = makeStyles((theme) => ({
   root: {
