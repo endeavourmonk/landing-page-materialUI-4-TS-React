@@ -8,6 +8,7 @@ import {
   useMediaQuery,
   useTheme,
 } from "@material-ui/core";
+import { Style } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,7 +27,6 @@ const useStyles = makeStyles((theme) => ({
   contentBox: {
     width: "80%",
     // marginTop: theme.spacing(8),
-    marginTop: "64px",
     // marginBottom: theme.spacing(4),
     display: "flex",
     flexDirection: "column",
@@ -87,18 +87,28 @@ const Hero: React.FC = () => {
 
   return (
     <Box className={classes.root}>
-      <Box className={classes.contentBox}>
+      <Box
+        className={classes.contentBox}
+        style={{ marginTop: isSmallScreen ? "16px" : "64px" }}
+      >
         <Box>
           <Typography
             variant="h3"
             component="h2"
             gutterBottom
-            style={{ fontWeight: 500 }}
+            style={{
+              fontWeight: 500,
+              fontSize: isSmallScreen ? "40px" : "48px",
+            }}
           >
             The fastest all-in-one{" "}
             <Typography
               component="span"
-              style={{ color: "#0256b3", fontSize: 48, fontWeight: 500 }}
+              style={{
+                color: "#0256b3",
+                fontWeight: 500,
+                fontSize: isSmallScreen ? "40px" : "48px",
+              }}
             >
               domain & website monitoring
             </Typography>{" "}
@@ -124,14 +134,7 @@ const Hero: React.FC = () => {
           Monitor Your Domain Now
         </Button>
       </Box>
-      {/* <Button
-        variant="contained"
-        component="a"
-        href="#"
-        className={classes.button}
-      >
-        Monitor Your Domain Now
-      </Button> */}
+
       <svg
         id="wave"
         style={{
