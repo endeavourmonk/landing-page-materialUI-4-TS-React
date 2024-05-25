@@ -19,9 +19,11 @@
     "@types/react-dom": "^16.9.24",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-lazy-load-image-component": "^1.6.0",
     "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
+    "@types/react-lazy-load-image-component": "^1.6.4",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",

@@ -21,8 +21,8 @@ export default function Products() {
         justifyContent: "center",
         alignContent: "center",
         alignItems: "center",
-        paddingTop: "96px", // 12 * 8
-        paddingBottom: "96px", // 12 * 8
+        paddingTop: "96px",
+        paddingBottom: "96px",
       }}
     >
       <Typography
@@ -58,10 +58,10 @@ export default function Products() {
           fontSize: "20px",
           fontWeight: 400,
           color: "#3D3B40",
-          marginTop: "8px", // 1 * 8
-          marginBottom: "8px", // 1 * 8
-          paddingLeft: "16px", // 2 * 8
-          paddingRight: "16px", // 2 * 8
+          marginTop: "8px",
+          marginBottom: "8px",
+          paddingLeft: "16px",
+          paddingRight: "16px",
         }}
       >
         Get notified right away with instant and customizable alerting, straight

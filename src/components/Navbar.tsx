@@ -139,7 +139,10 @@ function Navbar() {
               <MenuIcon />
             </IconButton>
             <Drawer anchor="right" open={open} onClose={toggleDrawer(false)}>
-              <IconButton onClick={toggleDrawer(false)}>
+              <IconButton
+                style={{ justifyContent: "start" }}
+                onClick={toggleDrawer(false)}
+              >
                 <ChevronRightIcon />
               </IconButton>
               <Box

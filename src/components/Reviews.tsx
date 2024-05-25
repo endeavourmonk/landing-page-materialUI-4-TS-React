@@ -60,7 +60,7 @@ export default function Reviews() {
       </Typography>
       <Grid container spacing={3} className={classes.gridContainer}>
         {reviews.map((review) => (
-          <Grid item xs={12} sm={12} md={4} lg={4} key={review.id}>
+          <Grid item xs={12} sm={12} md={6} lg={4} key={review.id}>
             <ReviewCard {...review} />
           </Grid>
         ))}

@@ -67,9 +67,9 @@ const Features: React.FC = () => {
         Never miss a critical website outage again. Get Instant Downtime &
         Expiration Alerts.
       </Typography>
-      <Grid container spacing={3} className={classes.gridContainer}>
+      <Grid container spacing={2} className={classes.gridContainer}>
         {featuresItem.map((item) => (
-          <Grid item xs={12} sm={12} md={6} lg={6} key={item.id}>
+          <Grid item xs={12} sm={12} md={12} lg={6} key={item.id}>
             <FeatureCard {...item} />
           </Grid>
         ))}

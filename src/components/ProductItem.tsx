@@ -50,7 +50,7 @@ const ProductItem: React.FC<ProductItemProps> = ({
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        padding: theme.spacing(8),
+        padding: isSmallScreen ? "16px" : "48px",
       }}
     >
       <img

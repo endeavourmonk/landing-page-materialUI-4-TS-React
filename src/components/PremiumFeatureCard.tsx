@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme) => ({
   card: {
     maxWidth: 800,
     minHeight: 275,
-    margin: 8,
+    margin: "auto",
     padding: 32,
     backgroundColor: "#164B60",
     color: "#eef7ff",

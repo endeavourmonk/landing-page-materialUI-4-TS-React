@@ -1,4 +1,4 @@
-import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import {
   Box,
   Typography,
@@ -57,6 +57,17 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const images = [
+  { src: twitter, alt: "Twitter" },
+  { src: webhooks, alt: "Webhooks" },
+  { src: email, alt: "Email" },
+  { src: discord, alt: "Discord" },
+  { src: slack, alt: "Slack" },
+  { src: sms, alt: "SMS" },
+  { src: web, alt: "Web" },
+  { src: pushover, alt: "Pushover" },
+];
+
 export default function NotificationChannels() {
   const classes = useStyles();
   const theme = useTheme();
@@ -97,18 +108,14 @@ export default function NotificationChannels() {
         </Typography>
       </Box>
       <Grid container spacing={4} className={classes.gridContainer}>
-        {[
-          { src: email, alt: "Email" },
-          { src: discord, alt: "Discord" },
-          { src: slack, alt: "Slack" },
-          { src: sms, alt: "SMS" },
-          { src: twitter, alt: "Twitter" },
-          { src: web, alt: "Web" },
-          { src: webhooks, alt: "Webhooks" },
-          { src: pushover, alt: "Pushover" },
-        ].map((item, index) => (
+        {images.map((item, index) => (
           <Grid item xs={6} sm={3} key={index}>
-            <img src={item.src} alt={item.alt} style={{ width: "30%" }} />
+            <LazyLoadImage
+              alt={item.alt}
+              src={item.src}
+              width={"30%"}
+              threshold={600}
+            />
             <Typography variant="body2" style={{ fontWeight: 500 }}>
               {item.alt}
             </Typography>

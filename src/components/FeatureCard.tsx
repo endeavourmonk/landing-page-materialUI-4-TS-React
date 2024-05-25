@@ -5,8 +5,12 @@ const useStyles = makeStyles((theme) => ({
   card: {
     maxWidth: 800,
     minHeight: 275,
-    margin: 8,
+    margin: "auto",
     padding: 32,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
     borderRadius: 16,
     cursor: "pointer",
     transition: "transform 0.3s ease, box-shadow 0.3s ease",
@@ -14,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
       transform: "scale(0.9)",
       boxShadow: "0 4px 20px rgba(0, 0, 0, 0.2)",
     },
-    [theme.breakpoints.down("md")]: {
+    [theme.breakpoints.down("sm")]: {
       width: "100%",
       padding: 16,
     },
