@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Box,
   Button,
@@ -64,6 +64,25 @@ const useStyles = makeStyles((theme) => ({
 const Hero: React.FC = () => {
   const classes = useStyles();
   const theme = useTheme();
+
+  // adjusting the svg on small devices
+  useEffect(() => {
+    function handleResize() {
+      const svg = document.getElementById("wave");
+      if (window.innerWidth < 600) {
+        svg?.setAttribute("viewBox", "300 0 540 310");
+      } else {
+        svg?.setAttribute("viewBox", "0 0 1440 310");
+      }
+    }
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
 
   return (
