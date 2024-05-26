@@ -41,7 +41,7 @@ export default function Reviews() {
   const classes = useStyles();
 
   return (
-    <Box className={classes.reviewSection}>
+    <Box id="reviewSection" className={classes.reviewSection}>
       <Typography
         variant="h4"
         component="h3"

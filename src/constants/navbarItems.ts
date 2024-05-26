@@ -24,11 +24,11 @@ export const navbarItems = [
     name: "Reviews",
     scrollToSection: "reviewSection",
   },
-  {
-    id: 5,
-    name: "Pricing",
-    scrollToSection: "pricingSection",
-  },
+  // {
+  //   id: 5,
+  //   name: "Pricing",
+  //   scrollToSection: "pricingSection",
+  // },
   {
     id: 6,
     name: "FAQs",
