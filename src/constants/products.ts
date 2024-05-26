@@ -22,7 +22,7 @@ export const products = [
     description:
       "Is your server background task running? Monitor your Cron job and ensure that it's running on time, every time. Get alerted when it stops running and take action.",
     imgPath:
-      "https://www.statuscake.com/wp-content/uploads/2021/09/iStock-1297824739.jpg",
+      "https://www.traperto.com/wp-content/uploads/2023/02/booking_schedule_isometric_illustration-06-1024x819.jpg",
   },
   {
     id: 3,
