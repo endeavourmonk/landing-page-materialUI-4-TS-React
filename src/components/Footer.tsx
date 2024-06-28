@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Typography, Link, Box, makeStyles } from "@material-ui/core";
-import logo from "../assets/imgs/logo.webp";
+import logo from "../assets/img/logo.png";
 
 const useStyles = makeStyles((theme) => ({
   logoStyle: {

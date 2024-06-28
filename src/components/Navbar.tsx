@@ -15,7 +15,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import { makeStyles } from "@material-ui/core/styles";
 
-import logo from "../assets/imgs/logo.webp";
+import logo from "../assets/img/logo.png";
 import { navbarItems } from "../constants/navbarItems";
 
 const useStyles = makeStyles((theme) => ({

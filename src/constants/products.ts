@@ -46,7 +46,7 @@ export const products = [
     description:
       "Tired of constantly checking whether a product is back in stock? Look no further than our keyword monitoring tool as part of our all-in-one monitoring suite of tools.",
     imgPath:
-      "https://sitehawk.io/assets/seo_tracking-02b6bcd4820176e423dca81812f5c66ef3db5617da61840245c1bdfa52f34728.svg",
+      "https://www.brandingmarketingagency.com/wp-content/uploads/2023/01/A-Beginners-Guide-To-Keyword-Research.png",
   },
   {
     id: 6,
